@@ -34,4 +34,14 @@ export const chains: ChainMap<ChainMetadata> = {
       },
     ],
   },
+  anvil3: {
+    name: 'anvil3',
+    protocol: ProtocolType.Ethereum,
+    chainId: 31340,
+    rpcUrls: [
+      {
+        http: 'http://127.0.0.1:8575',
+      },
+    ],
+  },
 };
